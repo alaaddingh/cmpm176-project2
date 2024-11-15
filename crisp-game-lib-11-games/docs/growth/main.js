@@ -56,7 +56,7 @@ function update() {
   nextEnemyDist -= scr;
   
   if (nextEnemyDist < 0) {
-    let size = rnd() < 0.8 ? 3 : rnd(5) * rnd(5) + 3;
+    let size = rnd() < 0.7 ? 3 : rnd(5) * rnd(5) + 3;
     let w_height = rnd() < 0.8 ? 3 : rnd(6) * rnd(6) + 3;
     if(w_height < 20){
       w_height = 10;
